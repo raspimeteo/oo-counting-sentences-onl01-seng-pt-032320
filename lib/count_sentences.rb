@@ -19,7 +19,8 @@ class String
     a = self.split(/[!+.?]/)
  ## 
   a.each do |str|
-    if str !=  ' 'binding.pry
+    if str !=  ' '
+      binding.pry
       i = i + 1
     end
   end
