@@ -17,7 +17,7 @@ class String
   def count_sentences
   i = 0
     a = self.split(/[!+.?]/)
-  binding.pry
+ ## binding.pry
   a.each do |str|
     if str !=  ' '
       i = i + 1
