@@ -22,6 +22,7 @@ class String
     if str !=  ' '
       i = i + 1
     end
+  end
     return i
   end
 end
