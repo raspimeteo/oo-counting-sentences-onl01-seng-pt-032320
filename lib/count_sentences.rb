@@ -20,7 +20,7 @@ class String
  ## 
   a.each do |str|
     if str !=  ''
-      binding.pry
+     ## binding.pry
       i = i + 1
     end
   end
